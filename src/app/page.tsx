@@ -51,7 +51,54 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>
+      {/* Provider区域 */}
+      <div style={{ width: "100%", background: "#000000", height: "784.72px", padding: "120px 120px" }}>
+        <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+          <div style={{ color: "white", fontSize: "64px" }}>Elevate Your Practice</div>
+          <div style={{ flex: 1 }}></div>
+          <div style={{ color: "#271F15", fontSize: "28px", padding: "8px 36px", borderRadius: "30px", background: "#FCEBCF", boxShadow: " 0 0 20px 10px rgba(252,235,207,0.5)" }}>Become a Provider</div>
+        </div>
+        <div style={{ display: "flex", flexDirection: "row", marginTop: "36px" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1, borderRadius: "32px", border: "1px solid #FCEBCF", padding: "40px 20px" }}>
+            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}></div>
+            <div style={{ fontWeight: "bold", fontSize: "24px", color: "#FFEBCC" }}>Dr. James Pattinson, MD</div>
+            <div style={{ fontSize: "18px", color: "#FFEBCC", marginTop: "6px" }}>Explore longvity Clinic, Los Angeles</div>
+            <div style={{ fontSize: "16px", color: "#FBF6ED", marginTop: " 12px" }}>“Lobortis leo pretium facilisis amet nisl at nec. Scelerisque risus tortor donec ipsum consequat semper consequat adipiscing ultrices.”</div>
+          </div>
+          <div style={{ width: "40px" }}></div>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1, borderRadius: "32px", border: "1px solid #FCEBCF", padding: "40px 20px" }}>
+            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}></div>
+            <div style={{ fontWeight: "bold", fontSize: "24px", color: "#FFEBCC" }}>Dr. Clayton Anderwson, MD</div>
+            <div style={{ fontSize: "18px", color: "#FFEBCC", marginTop: "6px" }}>Peek longvity Clinic, New York</div>
+            <div style={{ fontSize: "16px", color: "#FBF6ED", marginTop: " 12px" }}>“Lobortis leo pretium facilisis amet nisl at nec. Scelerisque risus tortor donec ipsum consequat semper consequat adipiscing ultrices.”</div>
+          </div>
+          <div style={{ width: "40px" }}></div>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1, borderRadius: "32px", border: "1px solid #FCEBCF", padding: "40px 20px" }}>
+            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}></div>
+            <div style={{ fontWeight: "bold", fontSize: "24px", color: "#FFEBCC" }}>Dr. Kate Ma, MD</div>
+            <div style={{ fontSize: "18px", color: "#FFEBCC", marginTop: "6px" }}>Peek longvity Clinic, New Yorks</div>
+            <div style={{ fontSize: "16px", color: "#FBF6ED", marginTop: " 12px" }}>“Lobortis leo pretium facilisis amet nisl at nec. Scelerisque risus tortor donec ipsum consequat semper consequat adipiscing ultrices.”</div>
+          </div>
+        </div>
+      </div>
+      {/* 产品区域 */}
+      <div style={{
+        width: "100%", background: "#FFFFFF", height: "781px", display: "flex", flexDirection: "column", alignItems: "center",  /* 利用两个线性渐变创建水平和垂直线条 */
+        backgroundImage: "linear-gradient(rgba(255,0,0,0.3) 0.5px, transparent 0.5px), linear-gradient(90deg, rgba(255,0,0,0.3) 0.5px, transparent 0.5px)", backgroundSize: "20px 20px"
+      }}>
+        <div style={{ fontSize: "96px", textAlign: "left", width: "100%", marginLeft: "40px", marginTop: "120px" }}>1 SAMPLE PROCESSING</div>
+        <div style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "806px", padding: "30px 60px", marginLeft: "40px" }}>
+            <div style={{ fontSize: "64px" }}>Measure with Precision</div>
+            <div style={{ fontSize: "36px" }}>Generation Lab partners with Tempus and Illumina to ensure gold-standard accuracy in our SystemAge Test, leveraging Illumina’s sequencing and Tempus’ CLIA-certified lab for precise aging insights.</div>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1 }}>
+            <div style={{ fontSize: "64px", fontWeight: "bold" }}>Tempus</div>
+            <div style={{ fontSize: "50px" }}>illumina</div>
+          </div>
+        </div>
+      </div>
+    </div >
   );
 };
 
