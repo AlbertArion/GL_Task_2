@@ -2,7 +2,7 @@
  * @Author: Albert
  * @Date: 2025-02-20 12:35:42
  * @LastEditors: Elaine
- * @LastEditTime: 2025-02-21 19:15:41
+ * @LastEditTime: 2025-02-21 19:53:35
  * @FilePath: /GL_Task_2/src/app/page.tsx
  * @Description: 
  * 
@@ -32,21 +32,21 @@ const Home: NextPage = () => {
           <span className='flex-1'></span>
           <div className='inline rounded-[20px] bg-[#47371E] text-white text-[16px] p-[6px_24px]'>For Providers</div>
           <span className='flex-[0.3_1_0%]' ></span>
-          <div className='inline' style={{ borderRadius: '20px', background: "#6C5127", color: "white", fontSize: "16px", padding: "6px 24px" }}>Order Test</div>
-          <div className='inline' style={{  fontSize: "16px", padding: "6px 24px", marginRight: "10px" }}>Sign in</div>
+          <div className='inline rounded-[20px] bg-[#6C5127] text-white text-[16px] p-[6px_24px]' >Order Test</div>
+          <div className='inline text-[16px] p-[6px_24px] mr-[10px]' >Sign in</div>
         </div>
-        <div style={{ fontSize: "96px",  color: "white", marginLeft: "60px", marginTop: "60px" }}>Measure Aging</div>
-        <div style={{ fontSize: "52px",  fontStyle: "italic", color: "white", marginLeft: "60px", marginTop: "-10px" }}>widh golden standard</div>
-        <div style={{ marginLeft: "60px", marginTop: "30px" }}>
-          <div style={{ width: "20px", backgroundImage: "url('/public/icon/arrow_left.svg')" }}></div>
-          <div className='inline' style={{ padding: "24px", fontSize: "36px", color: "white", borderRadius: "40px", background: "#4F4E4D" }}>Learn about our test</div>
+        <div className='text-[96px] text-white ml-[60px] mt-[60px]'>Measure Aging</div>
+        <div className='text-[52px] italic text-white ml-[60px] mt-[-10px]' >with golden standard</div>
+        <div className='ml-[60px] mt-[30px]' >
+          <div className='w-[20px]' style={{ backgroundImage: "url('/public/icon/arrow_left.svg')" }}></div>
+          <div className='inline p-[24px] text-[36px] text-white rounded-[40px] bg-[#4F4D4D]' >Learn about our test</div>
         </div>
-        <div className='flex' style={{ flexDirection: "row", marginRight: "60px" }}>
-          <div style={{ flex: 1 }}></div>
-          <div style={{ marginTop: "60px" }}>
-            <div style={{ fontSize: "96px",  color: "white" }}>Intervene Health</div>
-            <div style={{ fontSize: "52px",  fontStyle: "italic", color: "white", marginTop: "-10px", marginLeft: "120px" }}>widh scientific confidence</div>
-            <div style={{ width: "auto", padding: "24px", marginTop: "30px", marginLeft: "320px", fontSize: "36px", color: "white", borderRadius: "40px", background: "#4F4E4D" }}>Learn about our plan</div>
+        <div className='flex flex-row mr-[60px]'>
+          <div className='flex-1'></div>
+          <div className='mt-[60px]' >
+            <div className='text-[96px] text-white' >Intervene Health</div>
+            <div className='mt-[-10px] ml-[120px]' style={{ fontSize: "52px",  fontStyle: "italic", color: "white"}}>widh scientific confidence</div>
+            <div className='p-[24px] mt-[30px] ml-[320px]' style={{ width: "auto",  fontSize: "36px", color: "white", borderRadius: "40px", background: "#4F4E4D" }}>Learn about our plan</div>
           </div>
         </div>
       </div>
@@ -116,14 +116,22 @@ const Home: NextPage = () => {
               Excepteur sint occaecat cupidatat non.</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
-            <div style={{ fontSize: "30px", height: "468px" }}>这里放曲线图</div>
+            <div style={{ fontSize: "30px", height: "468px" }}>
+              <img src="/images/ENTROPY CUREVE.svg" alt="" />
+            </div>
             <div style={{ fontSize: "24px", fontStyle: "italic", fontWeight: "bold", margin: "20px 0px" }}>Read our papers:</div>
             <div style={{ width: "697", display: "flex", flexDirection: "row" }}>
-              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px", background: "#498256" }}>这里放杂志图</div>
+              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px" }}>
+                <img src="/images/paper1.svg" alt="" />
+              </div>
               <div style={{ width: "20px" }}></div>
-              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px", background: "#498256" }}>这里放杂志图</div>
+              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px" }}>
+              <img src="/images/paper2.png" alt="" />
+              </div>
               <div style={{ width: "20px" }}></div>
-              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px", background: "#498256" }}>这里放杂志图</div>
+              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px" }}>
+              <img src="/images/paper3.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
