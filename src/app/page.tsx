@@ -83,10 +83,10 @@ const Home: NextPage = () => {
       </div>
       {/* 产品区域 1 */}
       <div style={{
-        width: "100%", background: "#FFFFFF", height: "781px", display: "flex", flexDirection: "column",
+        width: "100%", background: "#FFFFFF", height: "680px", display: "flex", flexDirection: "column",
         backgroundImage: "linear-gradient(rgba(255,0,0,0.3) 0.5px, transparent 0.5px), linear-gradient(90deg, rgba(255,0,0,0.3) 0.5px, transparent 0.5px)", backgroundSize: "20px 20px"
       }}>
-        <div style={{ fontSize: "75px", textAlign: "left", marginLeft: "66px", marginTop: "120px" }}>1 SAMPLE PROCESSING</div>
+        <div style={{ fontSize: "75px", textAlign: "left", marginLeft: "40px", marginTop: "120px" }}>1 SAMPLE PROCESSING</div>
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%" }}>
           <div style={{ display: "flex", flexDirection: "column", width: "806px", padding: "30px 60px", marginLeft: "40px" }}>
             <div style={{ fontSize: "48px", fontWeight: "bold" }}>Measure with Precision</div>
@@ -97,18 +97,19 @@ const Home: NextPage = () => {
             <div style={{ fontSize: "50px" }}>illumina</div>
           </div>
         </div>
-        {/* 产品区域 2 */}
       </div>
+      {/* 产品区域 2 */}
       <div style={{
-        width: "100%", background: "linear-gradient(180deg, #F5F3F1 0%, #E4DFDB 100%)", height: "1380px", display: "flex", flexDirection: "column"
+        width: "100%", background: "linear-gradient(180deg, #F5F3F1 0%, #8F8578 100%)", height: "1380px", display: "flex", flexDirection: "column"
       }}>
-        <div style={{ fontSize: "75px", textAlign: "left", marginLeft: "66px", marginTop: "120px" }}>2 MOST ADVANCED ANALYSIS</div>
+        <div style={{ fontSize: "75px", textAlign: "left", marginLeft: "40px", marginTop: "120px" }}>2 MOST ADVANCED ANALYSIS</div>
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%" }}>
           <div style={{ display: "flex", flexDirection: "column", width: "640px", padding: "30px 60px", marginLeft: "40px" }}>
             <div style={{ fontSize: "48px", fontWeight: "bold" }}>Go Beyond Just A Number</div>
             <div style={{ fontSize: "30px", marginTop: "15px" }}><span style={{ fontWeight: "bold" }}>BioNoise Level</span>: consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             <div style={{ fontSize: "30px", marginTop: "15px" }}><span style={{ fontWeight: "bold" }}>Aging Trajectory</span>: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               Excepteur sint occaecat cupidatat non.</div>
+            <div style={{ color: "#271F15", fontSize: "28px", padding: "8px 10px", width: "450px", textAlign: "center", marginTop: "20px", borderRadius: "30px", border: "0.5px solid #000000", background: "linear-gradient(180deg, #FEFBF5 0%, #FCEFDA 100%)", boxShadow: " 0 0 20px 10px rgba(252,235,207,0.5)" }}>Read more in our white paper</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
             <div style={{ fontSize: "30px", height: "468px" }}>这里放曲线图</div>
@@ -121,6 +122,21 @@ const Home: NextPage = () => {
               <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px", background: "#498256" }}>这里放杂志图</div>
             </div>
           </div>
+        </div>
+      </div>
+      {/* 产品区域 3 */}
+      <div style={{
+        width: "100%", background: "linear-gradient(180deg, #8F8578 0%, #322412 100%)", height: "958px", display: "flex", flexDirection: "column"
+      }}>
+        <div style={{ fontSize: "75px", color: "white", textAlign: "left", marginLeft: "40px", marginTop: "120px" }}>3 Intervene with Confidence</div>
+        <div style={{ display: "flex", flexDirection: "row", marginLeft: "40px", padding: "30px 60px" }}>
+          <div style={{ fontSize: "48px", color: "white", fontWeight: "bold" }}>Intelligent Interventions</div>
+          <div style={{ flex: 1 }}></div>
+          <div style={{ color: "#271F15", fontSize: "28px", padding: "8px 10px", width: "150px", textAlign: "center", marginTop: "20px", borderRadius: "30px", border: "0.5px solid #000000", background: "linear-gradient(180deg, #FEFBF5 0%, #FCEFDA 100%)", boxShadow: " 0 0 20px 10px rgba(252,235,207,0.5)" }}>Try it!</div>
+        </div>
+        <div style={{ marginLeft: "66px", color: "rgba(255, 255, 255, 0.7)" }}>
+          <div style={{ fontSize: "30px", marginTop: "15px", marginLeft: "40px" }}><span style={{ fontWeight: "bold", color: "white" }}>Intelligent Recommendations</span>: Tailored for each test taker and for each report, we generate a clinically-relevant action plan powered by our XXX algorithm.</div>
+          <div style={{ fontSize: "30px", marginTop: "15px", marginLeft: "40px" }}><span style={{ fontWeight: "bold", color: "white" }}>Tracking</span>: Send the action plan to your clients and track their completion rates. Make informed adjustment each cycle to dynamically achieve the health goals.</div>
         </div>
       </div>
     </div >
