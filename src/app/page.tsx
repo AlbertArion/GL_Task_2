@@ -2,7 +2,7 @@
  * @Author: Albert
  * @Date: 2025-02-20 12:35:42
  * @LastEditors: Elaine
- * @LastEditTime: 2025-02-21 19:59:27
+ * @LastEditTime: 2025-02-21 20:24:35
  * @FilePath: /GL_Task_2/src/app/page.tsx
  * @Description: 
  * 
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       {/* 顶部导航栏 */}
       <div className='w-full h-[907px]  py-0 px-20 bg-frame14 bg-no-repeat bg-cover bg-center'>
         <div className='flex flex-row items-center align-middle bg-[#F0E6D4] rounded-[32px] h-[64px] my-[20px] mx-[40px]'>
-          <img src="/images/LOGO-Blk.svg" className='ml-[30px]' alt="" srcset="" />
+          <img src="/images/LOGO-Blk.svg" className='ml-[30px]' alt="" srcSet="" />
           <span className='flex-[2_1_0%]'></span>
           <span className='py-0 px-20 h-64 leading-[64px] text-center text-[#47371F]'>Science</span>
           <span className='py-0 px-20 h-64 leading-[64px] text-center text-[#47371F]'>About US</span>
