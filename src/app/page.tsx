@@ -2,7 +2,7 @@
  * @Author: Albert
  * @Date: 2025-02-20 12:35:42
  * @LastEditors: Elaine
- * @LastEditTime: 2025-02-21 19:53:35
+ * @LastEditTime: 2025-02-21 19:59:27
  * @FilePath: /GL_Task_2/src/app/page.tsx
  * @Description: 
  * 
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex justify-center w-full items-start flex-wrap  min-h-screen bg-gray-100 h-full">
       {/* 顶部导航栏 */}
-      <div className='w-full h-[907px] max-w-[1583px] py-0 px-20 bg-frame14 bg-no-repeat bg-cover bg-center'>
+      <div className='w-full h-[907px]  py-0 px-20 bg-frame14 bg-no-repeat bg-cover bg-center'>
         <div className='flex flex-row items-center align-middle bg-[#F0E6D4] rounded-[32px] h-[64px] my-[20px] mx-[40px]'>
           <img src="/images/LOGO-Blk.svg" className='ml-[30px]' alt="" srcset="" />
           <span className='flex-[2_1_0%]'></span>
