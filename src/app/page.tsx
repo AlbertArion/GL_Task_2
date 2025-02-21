@@ -2,7 +2,7 @@
  * @Author: Albert
  * @Date: 2025-02-20 12:35:42
  * @LastEditors: Elaine
- * @LastEditTime: 2025-02-21 18:48:23
+ * @LastEditTime: 2025-02-21 19:15:41
  * @FilePath: /GL_Task_2/src/app/page.tsx
  * @Description: 
  * 
@@ -59,21 +59,27 @@ const Home: NextPage = () => {
         </div>
         <div style={{ display: "flex", flexDirection: "row", marginTop: "36px" }}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1, borderRadius: "32px", border: "1px solid #FCEBCF", padding: "40px 20px" }}>
-            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}></div>
+            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}>
+              <img className='w-[170px] h-[170px]' src="/images/image1.svg" />
+            </div>
             <div style={{ fontWeight: "bold", fontSize: "24px", color: "#FFEBCC" }}>Dr. James Pattinson, MD</div>
             <div style={{ fontSize: "18px", color: "#FFEBCC", marginTop: "6px" }}>Explore longvity Clinic, Los Angeles</div>
             <div style={{ fontSize: "16px", color: "#FBF6ED", marginTop: " 12px" }}>“Lobortis leo pretium facilisis amet nisl at nec. Scelerisque risus tortor donec ipsum consequat semper consequat adipiscing ultrices.”</div>
           </div>
           <div style={{ width: "40px" }}></div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1, borderRadius: "32px", border: "1px solid #FCEBCF", padding: "40px 20px" }}>
-            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}></div>
+            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}>
+            <img className='w-[170px] h-[170px]' src="/images/image2.svg" />
+            </div>
             <div style={{ fontWeight: "bold", fontSize: "24px", color: "#FFEBCC" }}>Dr. Clayton Anderwson, MD</div>
             <div style={{ fontSize: "18px", color: "#FFEBCC", marginTop: "6px" }}>Peek longvity Clinic, New York</div>
             <div style={{ fontSize: "16px", color: "#FBF6ED", marginTop: " 12px" }}>“Lobortis leo pretium facilisis amet nisl at nec. Scelerisque risus tortor donec ipsum consequat semper consequat adipiscing ultrices.”</div>
           </div>
           <div style={{ width: "40px" }}></div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1, borderRadius: "32px", border: "1px solid #FCEBCF", padding: "40px 20px" }}>
-            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}></div>
+            <div style={{ borderRadius: "50%", width: "170px", height: "170px", border: "1px solid #FCEBCF" }}>
+            <img className='w-[170px] h-[170px]' src="/images/image3.svg" />
+            </div>
             <div style={{ fontWeight: "bold", fontSize: "24px", color: "#FFEBCC" }}>Dr. Kate Ma, MD</div>
             <div style={{ fontSize: "18px", color: "#FFEBCC", marginTop: "6px" }}>Peek longvity Clinic, New Yorks</div>
             <div style={{ fontSize: "16px", color: "#FBF6ED", marginTop: " 12px" }}>“Lobortis leo pretium facilisis amet nisl at nec. Scelerisque risus tortor donec ipsum consequat semper consequat adipiscing ultrices.”</div>
@@ -91,9 +97,9 @@ const Home: NextPage = () => {
             <div style={{ fontSize: "64px" }}>Measure with Precision</div>
             <div style={{ fontSize: "36px" }}>Generation Lab partners with Tempus and Illumina to ensure gold-standard accuracy in our SystemAge Test, leveraging Illumina’s sequencing and Tempus’ CLIA-certified lab for precise aging insights.</div>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1 }}>
-            <div style={{ fontSize: "64px", fontWeight: "bold" }}>Tempus</div>
-            <div style={{ fontSize: "50px" }}>illumina</div>
+          <div className='ml-[100px]' style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1 }}>
+            <img src="/images/image11.svg" alt="" />
+            <img className='mt-[56px]' src="/images/image13.png" alt="" />
           </div>
         </div>
       </div>
