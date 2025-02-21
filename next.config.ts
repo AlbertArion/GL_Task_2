@@ -1,9 +1,9 @@
 /*
- * @Author: Elan
+ * @Author: Albert
  * @Date: 2025-02-20 12:23:19
- * @LastEditors: Elan
+ * @LastEditors: Albert
  * @LastEditTime: 2025-02-20 12:29:14
- * @FilePath: /privateProject/task1-app/next.config.ts
+ * @FilePath: /workspace/GL_Task_2/next.config.ts
  * @Description: 
  * 
  */

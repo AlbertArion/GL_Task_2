@@ -1,9 +1,9 @@
 /*
- * @Author: Elan
+ * @Author: Albert
  * @Date: 2025-02-20 12:35:14
- * @LastEditors: Elan
+ * @LastEditors: Albert
  * @LastEditTime: 2025-02-20 12:35:25
- * @FilePath: /privateProject/task1-app/src/page/api/submit.ts
+ * @FilePath: /workspace/GL_Task_2/src/page/api/submit.ts
  * @Description: 
  * 
  */
@@ -15,7 +15,7 @@ type RequestBody = {
 };
 
 type SuccessResponse = {
-  status:'success';
+  status: 'success';
   message: string;
 };
 
@@ -42,7 +42,7 @@ const validatePhone = (phone: string): boolean => {
 };
 
 export default function handler(req: NextApiRequest, res: NextApiResponse<SuccessResponse | ValidationErrorResponse | ServerErrorResponse>) {
-  if (req.method!== 'POST') {
+  if (req.method !== 'POST') {
     return res.status(405).end();
   }
 
@@ -52,7 +52,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Succes
   if (!validateEmail(email)) {
     errors.email = 'Invalid email format';
   }
-  if (phone &&!validatePhone(phone)) {
+  if (phone && !validatePhone(phone)) {
     errors.phone = 'Invalid phone number';
   }
 
@@ -67,7 +67,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Succes
   try {
     // 模拟成功响应
     return res.status(200).json({
-      status:'success',
+      status: 'success',
       message: 'Form submitted successfully.'
     });
   } catch (error) {

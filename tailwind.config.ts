@@ -1,9 +1,9 @@
 /*
- * @Author: Elaine
+ * @Author: Albert
  * @Date: 2025-02-20 12:23:19
- * @LastEditors: Elaine
+ * @LastEditors: Albert
  * @LastEditTime: 2025-02-21 12:09:40
- * @FilePath: /task2-app/tailwind.config.ts
+ * @FilePath: /workspace/GL_Task_2tailwind.config.ts
  * @Description: 
  * 
  */
