@@ -81,20 +81,45 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      {/* 产品区域 */}
+      {/* 产品区域 1 */}
       <div style={{
-        width: "100%", background: "#FFFFFF", height: "781px", display: "flex", flexDirection: "column", alignItems: "center",  /* 利用两个线性渐变创建水平和垂直线条 */
+        width: "100%", background: "#FFFFFF", height: "781px", display: "flex", flexDirection: "column",
         backgroundImage: "linear-gradient(rgba(255,0,0,0.3) 0.5px, transparent 0.5px), linear-gradient(90deg, rgba(255,0,0,0.3) 0.5px, transparent 0.5px)", backgroundSize: "20px 20px"
       }}>
-        <div style={{ fontSize: "96px", textAlign: "left", width: "100%", marginLeft: "40px", marginTop: "120px" }}>1 SAMPLE PROCESSING</div>
+        <div style={{ fontSize: "75px", textAlign: "left", marginLeft: "66px", marginTop: "120px" }}>1 SAMPLE PROCESSING</div>
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%" }}>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "806px", padding: "30px 60px", marginLeft: "40px" }}>
-            <div style={{ fontSize: "64px" }}>Measure with Precision</div>
-            <div style={{ fontSize: "36px" }}>Generation Lab partners with Tempus and Illumina to ensure gold-standard accuracy in our SystemAge Test, leveraging Illumina’s sequencing and Tempus’ CLIA-certified lab for precise aging insights.</div>
+          <div style={{ display: "flex", flexDirection: "column", width: "806px", padding: "30px 60px", marginLeft: "40px" }}>
+            <div style={{ fontSize: "48px", fontWeight: "bold" }}>Measure with Precision</div>
+            <div style={{ fontSize: "30px" }}>Generation Lab partners with Tempus and Illumina to ensure gold-standard accuracy in our SystemAge Test, leveraging Illumina’s sequencing and Tempus’ CLIA-certified lab for precise aging insights.</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1 }}>
             <div style={{ fontSize: "64px", fontWeight: "bold" }}>Tempus</div>
             <div style={{ fontSize: "50px" }}>illumina</div>
+          </div>
+        </div>
+        {/* 产品区域 2 */}
+      </div>
+      <div style={{
+        width: "100%", background: "linear-gradient(180deg, #F5F3F1 0%, #E4DFDB 100%)", height: "1380px", display: "flex", flexDirection: "column"
+      }}>
+        <div style={{ fontSize: "75px", textAlign: "left", marginLeft: "66px", marginTop: "120px" }}>2 MOST ADVANCED ANALYSIS</div>
+        <div style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%" }}>
+          <div style={{ display: "flex", flexDirection: "column", width: "640px", padding: "30px 60px", marginLeft: "40px" }}>
+            <div style={{ fontSize: "48px", fontWeight: "bold" }}>Go Beyond Just A Number</div>
+            <div style={{ fontSize: "30px", marginTop: "15px" }}><span style={{ fontWeight: "bold" }}>BioNoise Level</span>: consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div style={{ fontSize: "30px", marginTop: "15px" }}><span style={{ fontWeight: "bold" }}>Aging Trajectory</span>: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Excepteur sint occaecat cupidatat non.</div>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+            <div style={{ fontSize: "30px", height: "468px" }}>这里放曲线图</div>
+            <div style={{ fontSize: "24px", fontStyle: "italic", fontWeight: "bold", margin: "20px 0px" }}>Read our papers:</div>
+            <div style={{ width: "697", display: "flex", flexDirection: "row" }}>
+              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px", background: "#498256" }}>这里放杂志图</div>
+              <div style={{ width: "20px" }}></div>
+              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px", background: "#498256" }}>这里放杂志图</div>
+              <div style={{ width: "20px" }}></div>
+              <div style={{ flex: 1, width: "240px", fontSize: "30px", height: "309px", background: "#498256" }}>这里放杂志图</div>
+            </div>
           </div>
         </div>
       </div>
