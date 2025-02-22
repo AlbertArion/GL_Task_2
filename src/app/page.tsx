@@ -88,26 +88,28 @@ const Home: NextPage = () => {
       </div>
       {/* 产品区域 1 */}
       <div style={{
-        width: "100%", background: "#FFFFFF", height: "680px", display: "flex", flexDirection: "column",
+        position: "relative", width: "100%", background: "#FFFFFF", height: "680px", display: "flex", flexDirection: "column",
         backgroundImage: "linear-gradient(rgba(255,0,0,0.3) 0.5px, transparent 0.5px), linear-gradient(90deg, rgba(255,0,0,0.3) 0.5px, transparent 0.5px)", backgroundSize: "20px 20px"
       }}>
-        <div style={{ color: "#160D01", fontSize: "75px", textAlign: "left", marginLeft: "40px", marginTop: "120px" }}>1 SAMPLE PROCESSING</div>
+        <div style={{ position: "absolute", left: "0px", top: "40px", width: "160px", height: "600px", marginLeft: "-80px", border: "1px solid #000000", borderRadius: "80px" }}></div>
+        <div style={{ color: "#160D01", fontSize: "75px", textAlign: "left", marginLeft: "20px", marginTop: "120px" }}><span style={{ marginRight: "40px" }}>1</span>SAMPLE PROCESSING</div>
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%" }}>
-          <div style={{ display: "flex", flexDirection: "column", width: "806px", padding: "30px 60px", marginLeft: "40px" }}>
+          <div style={{ display: "flex", flexDirection: "column", width: "750px", padding: "30px 60px", marginLeft: "40px" }}>
             <div style={{ fontSize: "48px", fontWeight: "bold", color: "#271F15" }}>Measure with Precision</div>
             <div style={{ fontSize: "30px", color: "#160D01" }}>Generation Lab partners with Tempus and Illumina to ensure gold-standard accuracy in our SystemAge Test, leveraging Illumina’s sequencing and Tempus’ CLIA-certified lab for precise aging insights.</div>
           </div>
           <div className='ml-[100px]' style={{ display: "flex", flexDirection: "column", alignItems: "center", flex: 1 }}>
-            <img src="/images/image11.svg" alt="" />
-            <img className='mt-[56px]' src="/images/image13.png" alt="" />
+            <img src="/images/image11.svg" alt="" style={{ marginRight: "200px" }} />
+            <img className='mt-[56px]' src="/images/image13.png" alt="" style={{ marginRight: "200px" }} />
           </div>
         </div>
       </div>
       {/* 产品区域 2 */}
       <div style={{
-        width: "100%", background: "linear-gradient(180deg, #F5F3F1 0%, #8F8578 100%)", height: "1380px", display: "flex", flexDirection: "column"
+        position: "relative", width: "100%", background: "linear-gradient(180deg, #F5F3F1 0%, #E3DFD9 100%)", height: "1380px", display: "flex", flexDirection: "column"
       }}>
-        <div style={{ color: "#160D01", fontSize: "75px", textAlign: "left", marginLeft: "40px", marginTop: "120px" }}>2 MOST ADVANCED ANALYSIS</div>
+        <div style={{ position: "absolute", left: "0px", top: "40px", width: "160px", height: "1341px", marginLeft: "-80px", border: "1px solid #000000", borderBottom: "1px solid transparent", borderTopRightRadius: "80px" }}></div>
+        <div style={{ color: "#160D01", fontSize: "75px", textAlign: "left", marginLeft: "20px", marginTop: "120px" }}><span style={{ marginRight: "40px" }}>2</span>MOST ADVANCED ANALYSIS</div>
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", width: "100%" }}>
           <div style={{ display: "flex", flexDirection: "column", width: "640px", padding: "30px 60px", marginLeft: "40px" }}>
             <div style={{ color: "#271F15", fontSize: "48px", fontWeight: "bold" }}>Go Beyond Just A Number</div>
@@ -137,11 +139,28 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      {/* 产品区域 2 bottom */}
+      <div style={{
+        position: "relative", width: "100%", height: "1380px", background: "linear-gradient(180deg, #E3DFD9 0%, #8F8578 100%)", display: "flex", flexDirection: "column"
+      }}>
+        <div style={{ zIndex: 1, position: "absolute", left: "0px", width: "160px", height: "1380px", marginLeft: "-80px", border: "1px solid #000000", borderTop: "1px solid transparent", borderBottomRightRadius: "80px" }}></div>
+        <div style={{ zIndex: 2, display: "flex", flexDirection: "row", alignItems: "center", width: "100%", marginTop: "66px" }}>
+          <div style={{ flex: 1 }}>
+            <img src="/images/cardiac_system.svg" alt="" />
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", width: "640px", padding: "30px 60px", marginLeft: "40px" }}>
+            <div style={{ color: "#271F15", fontSize: "48px", fontWeight: "bold" }}>Identify Top Aging Factors</div>
+            <div style={{ color: "#160D01", fontSize: "30px", marginTop: "15px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div style={{ color: "#271F15", fontSize: "28px", padding: "8px 10px", width: "450px", textAlign: "center", marginTop: "20px", borderRadius: "30px", border: "0.5px solid #000000", background: "linear-gradient(180deg, #FEFBF5 0%, #FCEFDA 100%)", boxShadow: " 0 0 20px 10px rgba(252,235,207,0.5)" }}>View sample report</div>
+          </div>
+        </div>
+      </div>
       {/* 产品区域 3 */}
       <div style={{
-        width: "100%", background: "linear-gradient(180deg, #8F8578 0%, #322412 100%)", height: "958px", display: "flex", flexDirection: "column"
+        position: "relative", width: "100%", background: "linear-gradient(180deg, #8F8578 0%, #322412 100%)", height: "958px", display: "flex", flexDirection: "column"
       }}>
-        <div style={{ fontSize: "75px", color: "white", textAlign: "left", marginLeft: "40px", marginTop: "120px" }}>3 Intervene with Confidence</div>
+        <div style={{ position: "absolute", left: "0px", top: "40px", width: "160px", height: "878px", marginLeft: "-80px", border: "1px solid #FFFFFF", borderRadius: "80px" }}></div>
+        <div style={{ fontSize: "75px", color: "white", textAlign: "left", marginLeft: "20px", marginTop: "120px" }}><span style={{ marginRight: "40px" }}>3</span>Intervene with Confidence</div>
         <div style={{ display: "flex", flexDirection: "row", marginLeft: "40px", padding: "30px 60px" }}>
           <div style={{ fontSize: "48px", color: "white", fontWeight: "bold" }}>Intelligent Interventions</div>
           <div style={{ flex: 1 }}></div>
@@ -150,6 +169,9 @@ const Home: NextPage = () => {
         <div style={{ marginLeft: "66px", color: "rgba(255, 255, 255, 0.7)" }}>
           <div style={{ fontSize: "30px", marginTop: "15px", marginLeft: "40px" }}><span style={{ fontWeight: "bold", color: "white" }}>Intelligent Recommendations</span>: Tailored for each test taker and for each report, we generate a clinically-relevant action plan powered by our XXX algorithm.</div>
           <div style={{ fontSize: "30px", marginTop: "15px", marginLeft: "40px" }}><span style={{ fontWeight: "bold", color: "white" }}>Tracking</span>: Send the action plan to your clients and track their completion rates. Make informed adjustment each cycle to dynamically achieve the health goals.</div>
+        </div>
+        <div style={{ width: "93%", marginTop: "40px" }}>
+          <img src="/images/part_3.png" alt="" style={{ marginLeft: "90px" }} />
         </div>
       </div>
     </div >
