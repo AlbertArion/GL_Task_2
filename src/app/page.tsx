@@ -38,15 +38,19 @@ const Home: NextPage = () => {
         <div className='text-[96px] text-white ml-[60px] mt-[60px]'>Measure Aging</div>
         <div className='text-[52px] italic text-white ml-[60px] mt-[-10px]' >with golden standard</div>
         <div className='ml-[60px] mt-[30px]' >
-          <div className='w-[20px]' style={{ backgroundImage: "url('/public/icon/arrow_left.svg')" }}></div>
-          <div className='inline p-[24px] text-[36px] text-white rounded-[40px] bg-[#4F4D4D]' >Learn about our test</div>
+          <div className='inline p-[24px] text-[36px] text-white rounded-[40px] bg-[#4F4D4D]' >
+            <img className='w-[20px] h-[20px]' src="/icons/arrow_left.svg" style={{ display: "inline", marginRight: "12px", marginBottom: "6px" }} />
+            Learn about our test</div>
         </div>
         <div className='flex flex-row mr-[60px]'>
           <div className='flex-1'></div>
           <div className='mt-[60px]' >
             <div className='text-[96px] text-white' >Intervene Health</div>
             <div className='mt-[-10px] ml-[120px]' style={{ fontSize: "52px", fontStyle: "italic", color: "white" }}>widh scientific confidence</div>
-            <div className='p-[24px] mt-[30px] ml-[320px]' style={{ width: "auto", fontSize: "36px", color: "white", borderRadius: "40px", background: "#4F4E4D" }}>Learn about our plan</div>
+            <div className='p-[24px] mt-[30px] ml-[320px]' style={{ width: "auto", fontSize: "36px", color: "white", borderRadius: "40px", background: "#4F4E4D" }}>
+              Learn about our plan
+              <img className='w-[20px] h-[20px]' src="/icons/arrow_right.svg" style={{ display: "inline", marginLeft: "12px" }} />
+            </div>
           </div>
         </div>
       </div>
@@ -145,10 +149,10 @@ const Home: NextPage = () => {
       }}>
         <div style={{ zIndex: 1, position: "absolute", left: "0px", width: "160px", height: "1380px", marginLeft: "-80px", border: "1px solid #000000", borderTop: "1px solid transparent", borderBottomRightRadius: "80px" }}></div>
         <div style={{ zIndex: 2, display: "flex", flexDirection: "row", alignItems: "center", width: "100%", marginTop: "66px" }}>
-          <div style={{ flex: 1 }}>
+          <div>
             <img src="/images/cardiac_system.svg" alt="" />
           </div>
-          <div style={{ display: "flex", flexDirection: "column", width: "640px", padding: "30px 60px", marginLeft: "40px" }}>
+          <div style={{ display: "flex", flexDirection: "column", flex: 1, width: "640px", padding: "30px 60px", marginLeft: "40px" }}>
             <div style={{ color: "#271F15", fontSize: "48px", fontWeight: "bold" }}>Identify Top Aging Factors</div>
             <div style={{ color: "#160D01", fontSize: "30px", marginTop: "15px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             <div style={{ color: "#271F15", fontSize: "28px", padding: "8px 10px", width: "450px", textAlign: "center", marginTop: "20px", borderRadius: "30px", border: "0.5px solid #000000", background: "linear-gradient(180deg, #FEFBF5 0%, #FCEFDA 100%)", boxShadow: " 0 0 20px 10px rgba(252,235,207,0.5)" }}>View sample report</div>
